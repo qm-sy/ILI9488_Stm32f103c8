@@ -89,8 +89,8 @@ extern _lcd_dev lcddev;	//管理LCD重要参数
 
 //////////////////////////////////////////////////////////////////////////////////	  
 //定义LCD的尺寸
-#define LCD_W 320
-#define LCD_H 480
+#define LCD_W 240
+#define LCD_H 320
 
 //TFTLCD部分外要调用的函数		   
 extern u16  POINT_COLOR;//默认红色    

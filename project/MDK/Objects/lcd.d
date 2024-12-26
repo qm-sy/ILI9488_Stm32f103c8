@@ -3,7 +3,7 @@
 .\objects\lcd.o: ..\..\board\sys.h
 .\objects\lcd.o: ..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\objects\lcd.o: ..\..\libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\objects\lcd.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd.o: D:\APP\Keil_STM32\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\lcd.o: ..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\objects\lcd.o: ..\..\module\stm32f10x_conf.h
 .\objects\lcd.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -30,6 +30,6 @@
 .\objects\lcd.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\objects\lcd.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\lcd.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
-.\objects\lcd.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\lcd.o: D:\APP\Keil_STM32\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\lcd.o: ..\..\board\board.h
 .\objects\lcd.o: ..\..\bsp\SPI\SPI.h

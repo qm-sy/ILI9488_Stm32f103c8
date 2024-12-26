@@ -2,7 +2,7 @@
 .\objects\bsp_uart.o: ..\..\bsp\uart\bsp_uart.h
 .\objects\bsp_uart.o: ..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\objects\bsp_uart.o: ..\..\libraries\CMSIS\CM3\CoreSupport\core_cm3.h
-.\objects\bsp_uart.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\bsp_uart.o: D:\APP\Keil_STM32\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\bsp_uart.o: ..\..\libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
 .\objects\bsp_uart.o: ..\..\module\stm32f10x_conf.h
 .\objects\bsp_uart.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
@@ -29,4 +29,4 @@
 .\objects\bsp_uart.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
 .\objects\bsp_uart.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
 .\objects\bsp_uart.o: ..\..\libraries\STM32F10x_StdPeriph_Driver\inc\misc.h
-.\objects\bsp_uart.o: D:\APP\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bsp_uart.o: D:\APP\Keil_STM32\ARM\ARMCC\Bin\..\include\stdio.h

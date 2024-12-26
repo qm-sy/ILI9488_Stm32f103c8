@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Tue Dec 10 17:08:13 2024
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Thu Dec 26 20:53:50 2024
 <BR><P>
 <H3>Maximum Stack Usage =        336 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -526,11 +526,10 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
 </UL>
 
-<P><STRONG><a name="[57]"></a>LCD_Init</STRONG> (Thumb, 444 bytes, Stack size 8 bytes, lcd.o(i.LCD_Init))
+<P><STRONG><a name="[57]"></a>LCD_Init</STRONG> (Thumb, 410 bytes, Stack size 8 bytes, lcd.o(i.LCD_Init))
 <BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = LCD_Init &rArr; LCD_Clear &rArr; LCD_SetWindows &rArr; LCD_WriteRAM_Prepare &rArr; LCD_WR_REG &rArr; SPIv_WriteData
 </UL>
-<BR>[Calls]<UL><LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;delay_ms
-<LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
+<BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_WriteBit
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_direction
 <LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WR_REG
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WR_DATA
@@ -627,7 +626,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_direction
 </UL>
 
-<P><STRONG><a name="[5b]"></a>LCD_direction</STRONG> (Thumb, 136 bytes, Stack size 8 bytes, lcd.o(i.LCD_direction))
+<P><STRONG><a name="[5b]"></a>LCD_direction</STRONG> (Thumb, 128 bytes, Stack size 8 bytes, lcd.o(i.LCD_direction))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = LCD_direction &rArr; LCD_WriteReg &rArr; LCD_WR_REG &rArr; SPIv_WriteData
 </UL>
 <BR>[Calls]<UL><LI><a href="#[5f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_WriteReg
@@ -876,7 +875,6 @@ Global Symbols
 <LI><a href="#[64]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Test_Circle
 <LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Rotate_Test
 <LI><a href="#[60]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Pic_test
-<LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LCD_Init
 <LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;English_Font_test
 <LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Chinese_Font_test
 </UL>
